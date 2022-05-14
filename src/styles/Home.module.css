@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h1 {
+  font-family: Fascinate Inline;
+  background-image: linear-gradient(180deg, #c0c0c0, #fff);
+  font-weight: 400;
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  filter: drop-shadow(2px 2px #0085a3);
+  font-size: 60px;
+  text-align: center;
+  margin: 20px;
+}
+
+.score {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.container buton {
+  height: 40px;
+  margin: 20px 0;
+  padding: 0 40px;
+}
+
+.start {
+  max-width: 200px;
+}
